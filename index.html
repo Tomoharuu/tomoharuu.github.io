@@ -1,949 +1,1353 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <base target="_blank">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Currículo</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/6588/6588143.png">
-  </head>
-  <body>
-  <section class="hero is-fullheight">
-    <div class="hero-body">
-    <div class="container">
+<html lang="pt-BR" data-theme="night">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Luiz Prado | Analista de Dados</title>
+
+    <meta name="description"
+        content="Portfólio de Luiz Prado, Analista de Dados com experiência em Python, SQL, Power BI, Tableau e visualização de dados.">
+
+    <meta name="author" content="Luiz Gustavo de Almeida Prado">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Luiz Prado | Analista de Dados">
+    <meta property="og:description"
+        content="Portfólio de projetos em análise, visualização e desenvolvimento de soluções orientadas a dados.">
+    <meta property="og:url" content="https://tomoharuu.github.io/">
+    <meta property="og:site_name" content="Luiz Prado | Portfólio">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#09080d">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind / DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css">
+
+    <style>
+        html,
+        body {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .modal,
+        .modal-box {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .modal :focus {
+            outline: none;
+        }
+    </style>
+</head>
 
 
+<body>
 
-      <div class="box has-text-centered">
-        <h1 class="title">Luiz Gustavo de Almeida Prado</h1>
-        <h2 class="subtitle is-6">Website feito para demonstração de projetos e certificações</h2><hr>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-        <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS&logoColor=white">
-        <img src="https://img.shields.io/badge/Bulma-00D1B2?style=for-the-badge&logo=Bulma&logoColor=white">
-        <img src="https://img.shields.io/badge/BootStrap5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
-        <img src="https://img.shields.io/badge/Excel-34A853?style=for-the-badge&logo=googlesheets&logoColor=white">
-        <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
-        <img src="https://img.shields.io/badge/Folium-77B829?style=for-the-badge&logo=folium&logoColor=white">
-        <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white">
-        <img src="https://img.shields.io/badge/PowerBI-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white">
-        <img src="https://img.shields.io/badge/Tableau-009EE2?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA60lEQVR4nO2aAQqDMAxF/9E8mkfzZn8MOpAyrW2TNo15EAai+T5qHVoBXXYATL9Ls4eIMZYV2dJJ/+pIIke2/bvfVJiqNAKl2jsyRCiFSIwILYhIzBGGSAUhAr2MW9hY1jLgRmTm9UuLc8RqBl4rwo5jVAkR6GUMaSZ922RtrxDJCJELir3ODz3np7x8+13znhI7L3YEaoqw9ng3I+JmjuSEyCoirGzUIsIHN5ZuZouIESLQy2hiRAhD5A/S/9CzMuBGxM2l5ebd7xUhAr2MJl4jsq2yhlhCYlXXBMuss7/my4ecELGGGxGM4gNlNsOBpcyJuwAAAABJRU5ErkJggg==&logoColor=white">
-        <hr>
+    <dialog id="image_modal" class="modal">
+        <div class="modal-box max-w-7xl p-2 bg-black/90">
 
-      <div class="grid">
-        <div class="cell">
+            <form method="dialog">
+                <button class="btn btn-md btn-circle btn-soft btn-error absolute right-5 top-5 z-10">
+                    ✕
+                </button>
+            </form>
 
-            <span class="icon-text">
-            <span class="icon">
-                <i class="fa fa-github fa-2x"></i>
-            </span>
-            <span>| <a href="https://github.com/Tomoharuu">github.com/Tomoharuu</a></span>
-            </span>
-        </div>
-        <div class="cell">
-            <span class="icon-text">
-            <span class="icon">
-                <i class="fa fa-envelope fa-lg"></i>
-            </span>
-            <span>| <a href="mailto:luizprado.ds@proton.me">luizprado.ds@proton.me</a></span>
-            </span>
-        </div>
-        <div class="cell">
+            <img id="zoomed_image" class="w-full max-h-[90vh] object-contain rounded-md" src="" alt="">
 
-            <span class="icon-text">
-            <span class="icon">
-                <i class="fa fa-linkedin fa-lg"></i>
-            </span>
-            <span>| <a href="https://www.linkedin.com/in/luizprado-ds/">linkedin.com/in/luizprado-ds</a></span>
-            </span>
-        </div>
-      </div>
-
-      </div>
-
-
-        <div class="dropdown">
         </div>
 
-        <br>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
 
-        <div class="card">
-        <button class="accordion"><i class="fa fa-drivers-license has-text-info" aria-hidden="true"></i> Experiências de Trabalho
-            <span style="float:right"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-        </button>
-        <div class="panel2">
-            <div class="box">
-                <div class="content">
-                    <h5>Estágio em ciência de dados</h5>
-                    <i class="fa fa-building" aria-hidden="true"></i> Prefeitura Municipal de Mogi das Cruzes - Secretaria de Assistência Social<br>
-                    <p>Departamento: Vigiância Socioassistencial</p>
-                    <i class="fa fa-calendar has-text-info" aria-hidden="true"></i> fev/2024 - jan/2026<br><br>
-                    <p>Principais tarefas realizadas:</p>
-                    <ul>
-                        <li>Melhora na tomada de decisão e de índices de dados quantitativos por meio de parceria com organizações municipais (Câmara Municipal) e regionais, utilizando-se de levantamentos, tratamentos e apresentações de dados;</li>
-                        <li>Implementação de mapa interativo com histórico de valores provenientes de bases de dados do governo utilizando Python (Pandas, Folium), SQL e HTML/CSS (Bootrstap) incluindo todos os serviços da rede socioassistencial municipal;</li>
-                        <li>Apoio na elaboração de sistema de informação e banco de dados utilizado no prontuário eletrônico da rede de assistência social do município.</li>
-                    </ul><hr>
-                    
-                    <h5>Auxiliar Administrativo</h5>
-                    <i class="fa fa-building" aria-hidden="true"></i> Lina Materiais Elétricos<br>
-                    <i class="fa fa-calendar has-text-info" aria-hidden="true"></i> out/2020 - jan/2024<br><br>
-                    <p>Principais tarefas realizadas:</p>
-                    <ul>
-                        <li>Atuação em diferentes vertentes de trabalho do setor administrativo;</li>
-                        <li>Utilização de Excel para ampliar a eficácia de atendimento ao fornecedor de produtos, cadastro e gerenciamento de preços de materiais vendidos na empresa, além de organização de dados e informações de marcas trabalhadas.</li>
+    <!--Navbar-->
+    <div class="w-full bg-gray-950 xl:px-[20vh] 2xl:px-[35vh]">
+        <div class="navbar shadow-sm bg-gray-950">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a href="#experiencia">Experiência e Formação</a></li>
+                        <li>
+                            <a>Projetos</a>
+                            <ul class="p-2">
+                                <li><a href="#projetos_principais">Projetos Principais</a></li>
+                                <li><a href="#outros_projetos">Outros Projetos</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#certificados">Certificados</a></li>
                     </ul>
                 </div>
+                <a class="btn btn-ghost text-xl" href="#">HOME</a>
+            </div>
+            <div class="navbar-end hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a href="#experiencia">Experiência e Formação</a></li>
+                    <li>
+                        <details>
+                            <summary>Projetos</summary>
+                            <ul class="p-2 bg-base-100 w-40 z-1">
+                                <li><a href="#projetos_principais">Projetos Principais</a></li>
+                                <li><a href="#outros_projetos">Outros Projetos</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a href="#certificados">Certificados</a></li>
+                </ul>
             </div>
         </div>
+    </div>
+
+    <!--Banner-->
+    <div class="hero min-h-[60vh]" style="background-color: rgb(9, 8, 13);
+        background-image:
+            linear-gradient(#ffffff08 1px, transparent 1px),
+            linear-gradient(90deg, #ffffff08 1px, transparent 1px);
+        background-size: 35px 35px;">
+        <div class="hero-overlay  opacity-[0.025]"></div>
+        <div class="hero-content text-neutral-content text-center">
+            <div>
+
+                <div class="grid grid-cols-1 gap-5 md:grid-cols-2 my-15 items-center">
+                    <div class="align-middle mx-5 text-left">
+                        <p class="text-sm font-semibold uppercase tracking-widest text-green-400 mb-4">▌ Analista de
+                            Dados em Formação</p>
+                        <h1 class="mb-5 text-6xl font-bold">Luiz Prado</h1>
+
+                        <p class="text-lg">Estudante de Ciência de Dados e Analista de Dados com experiência em
+                            tratamento, análise e visualização de dados. Trabalho com <span
+                                class="text-green-400 font-medium">Python, SQL, PowerBI e Tableau</span>, desenvolvendo
+                            dashboards, aplicações interativas e soluções para exploração de dados.
+                        </p>
+                        <a role="button" class="btn bg-green-500 text-black hover:bg-green-400 my-5 mr-2"
+                            href="#projetos_principais">
+                            Ver Projetos</a>
+                        <a role="button" class="btn btn-outline btn-neutral my-5 text-neutral-content"
+                            href="docs/CV - Luiz Gustavo de Almeida Prado.pdf" target="_blank">📋 Download Currículo
+                            (PDF)</a>
+                        <br>
+
+                        <div class="flex flex-wrap gap-3">
+                            <!--
+                            <p class="pt-2 font-bold">Contato:</p>
+                            -->
+                            <a role="button" class="btn btn-outline btn-info gap-2"
+                                href="https://linkedin.com/in/luizprado-ds" target="_blank">
+                                <img src="https://www.svgrepo.com/show/501245/linkedin.svg"
+                                    class="w-4 h-4 brightness-0 invert" alt="">
+                                LinkedIn
+                            </a>
+                            <a role="button"
+                                class="group btn btn-outline border-gray-500 text-gray-300 hover:bg-gray-200 hover:border-gray-200 hover:text-gray-950 gap-2 transition-all duration-300"
+                                href="https://github.com/Tomoharuu" target="_blank">
+                                <img src="https://www.svgrepo.com/show/453942/github.svg" alt=""
+                                    class="w-5 h-5 brightness-0 invert group-hover:invert-0 transition-all duration-300">
+                                GitHub
+                            </a>
+                            <a role="button" class="btn btn-outline btn-warning gap-2"
+                                href="mailto:luizprado.ds@proton.me" target="_blank">
+                                <img src="https://www.svgrepo.com/show/502648/email.svg"
+                                    class="w-5 h-5 brightness-0 invert" alt="">
+                                Email
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="text-left mx-auto">
+                        <div class="card bg-base-300/50 max-w-138 shadow-sm border-1 border-gray-400/30">
+                            <div class="card-body">
+                                <h2 class="card-title text-2xl font-bold">Conhecimentos Técnicos</h2>
+                            </div>
+
+                            <div class="flex flex-wrap gap-3 max-w-135 justify-center px-4">
+
+                                <div class="card bg-gray-950/50 w-40 shadow-sm border-1 border-gray-400/30
+                                hover:border-yellow-500/50 hover:bg-yellow-500/10">
+                                    <figure class="w-8 ml-5 mt-5 mb-3">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                            alt="Python" />
+                                    </figure>
+                                    <div class="card-body mt-0 pt-0">
+                                        <h2 class="card-title">Python</h2>
+                                        <p class="text-xs text-gray-500">Bibliotecas e programação</p>
+                                    </div>
+                                </div>
+
+                                <div class="card bg-gray-950/50 w-40 shadow-sm border-1 border-gray-400/30
+                                hover:border-blue-500/50 hover:bg-blue-500/10">
+                                    <figure class="w-8 ml-5 mt-5 mb-3">
+                                        <img src="https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fskill_page%2F36894%2Flogo%2Foptimized%2Fsql-64a6e0f07773cf17581e76ca09e17dbc.png&width=360"
+                                            alt="SQL" />
+                                    </figure>
+                                    <div class="card-body mt-0 pt-0">
+                                        <h2 class="card-title pb-0">SQL</h2>
+                                        <p class="text-xs text-gray-500">Consultas a bancos de dados (SELECT, JOIN,
+                                            GROUP BY, etc.)</p>
+                                    </div>
+                                </div>
+
+                                <div class="card bg-gray-950/50 w-40 shadow-sm border-1 border-gray-400/30
+                                hover:border-orange-500/50 hover:bg-orange-500/10">
+                                    <figure class="w-8 ml-5 mt-5 mb-3">
+                                        <img src="https://cdn3d.iconscout.com/3d/premium/thumb/microsoft-power-bi-3d-icon-png-download-8500319.png"
+                                            alt="SQL" />
+                                    </figure>
+                                    <div class="card-body mt-0 pt-0">
+                                        <h2 class="card-title">Dashboards</h2>
+                                        <p class="text-xs text-gray-500">PowerBI, Tableau e Streamlit para
+                                            representação dos dados</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="card-body">
+                                <div class="divider m-0 p-0"></div>
+                                <h2 class="card-title text-md font-bold ">Bibliotecas Python e programas utilizados</h2>
+                                <span class="flex flex-wrap gap-2">
+                                    <div class="badge badge-soft badge-sm badge-light">Pandas</div>
+                                    <div class="badge badge-soft badge-sm badge-light">Seaborn</div>
+                                    <div class="badge badge-soft badge-sm badge-light">Plotly</div>
+                                    <div class="badge badge-soft badge-sm badge-light">Streamlit</div>
+                                    <div class="badge badge-soft badge-sm badge-light">Matplotlib</div>
+                                    <div class="badge badge-soft badge-sm badge-light">PowerBI</div>
+                                    <div class="badge badge-soft badge-sm badge-light">Tableau</div>
+                                    <div class="badge badge-soft badge-sm badge-light">SQLite</div>
+                                    <div class="badge badge-soft badge-sm badge-light">BigQuery</div>
+                                </span>
+                                <br>
+                                <h2 class="card-title text-md font-bold ">Outros conhecimentos</h2>
+                                <span class="flex flex-wrap gap-2">
+                                    <div class="badge badge-soft badge-sm badge-light">Data Storytelling</div>
+                                    <div class="badge badge-soft badge-sm badge-light">Estatística</div>
+                                    <div class="badge badge-soft badge-sm badge-light">Redes Neurais</div>
+                                    <div class="badge badge-soft badge-sm badge-light">Engenharia de Prompt</div>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
         </div>
+    </div>
 
-        <div class="card">
-        <button class="accordion"><i class="fa fa-graduation-cap has-text-warning" aria-hidden="true"></i> Projetos de Estudo/Trabalho
-            <span style="float:right"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-        </button>
-        <div class="panel2">
-          <div class="fixed-grid has-1-cols-mobile">
-          <div class="grid py-5">
+    <!--Experiência e Formação-->
+    <section id="experiencia">
+        <div class="w-full bg-slate-950/75 xl:px-[10vh] 2xl:px-[20vh] 3xl:px-[35vh] pb-20">
+            <div class="container mx-auto p-5">
+                <h1 class="font-bold text-4xl pt-5 mt-5">Experiência e Formação</h1>
+                <div class="divider"></div>
 
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="dashboard_temperatura.png"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Dashboard - Variação da Temperatura Global ao longo dos anos</p>
-                    <p class="subtitle is-6"><a href="https://public.tableau.com/views/GlobalTemperatureOverviewbyYear/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Projeto disponível aqui</a></p>
-                </div>
-                </div>
+                <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+                    <li>
+                        <div class="timeline-middle mx-3 text-red-500/80">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="h-5 w-5">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <div class="timeline-start mb-10 md:text-end">
+                            <time class="font-mono italic">out/2020 - jan/2024</time>
+                            <div class="text-lg font-black">Auxiliar Administrativo</div>
+                            <span class="text-sm">Lina Materiais Elétricos</span>
+                        </div>
+                        <div class="timeline-end mb-10 max-w-lg">
+                            Atuação na organização, tratamento e validação de dados de milhares de produtos, envolvendo
+                            cadastros, preços e informações comerciais. Utilização de planilhas e relatórios para
+                            manutenção
+                            e conferência de informações, identificação de discrepâncias e inconsistências e apoio a
+                            ajustes
+                            de preços e promoções, contribuindo para a qualidade e confiabilidade dos dados.
+                        </div>
+                        <hr class="bg-red-500/60" />
+                    </li>
+                    <li>
+                        <hr class="bg-red-500/60" />
+                        <div class="timeline-middle mx-3 text-red-500/80">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="h-5 w-5">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <div class="timeline-start md:text-end">
+                            <time class="font-mono italic">2º semestre/2022 - agora</time>
+                            <div class="text-lg font-black">Bacharelado em Ciência de Dados (cursando)</div>
+                            <span class="text-sm">Universidade Virtual do Estado de São Paulo (UNIVESP)</span>
+                        </div>
+                        <div class="timeline-end md:mb-10 max-w-lg">
+                            Formação em análise e tratamento de dados, programação, bancos de dados, estatística,
+                            visualização e
+                            aprendizado de máquina, com aplicação prática de conceitos de Ciência de Dados na resolução
+                            de
+                            problemas.
+                        </div>
+                        <hr class="bg-red-500/60" />
+                    </li>
+                    <li>
+                        <hr class="bg-red-500/60" />
+                        <hr class="bg-red-500/30" />
+                        <div class="timeline-middle mx-3 text-red-500/80">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="h-5 w-5">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <div class="timeline-start mb-10 md:text-end">
+                            <time class="font-mono italic">fev/2024 - jan/2026</time>
+                            <div class="text-lg font-black">Estágio em Ciência de Dados</div>
+                            <span class="text-sm">Prefeitura Municipal de Mogi das Cruzes - Secretaria de Assistência
+                                Social</span>
+                        </div>
+                        <div class="timeline-end mb-10 max-w-lg">Atuação na extração, tratamento e consolidação de dados
+                            de diferentes fontes, abrangendo dezenas de unidades e serviços da rede municipal.
+                            Desenvolvimento de estruturas em Excel e Google Sheets e automação de processos com Python,
+                            além da utilização de Power BI para análise e visualização de dados. <br>Apoio na elaboração de
+                            relatórios, indicadores e levantamentos, contribuindo para a otimização de processos
+                            recorrentes e a disponibilização mais ágil de informações para diferentes áreas da
+                            secretaria.
+                        </div>
+                    </li>
+                </ul>
 
-                <div class="content">
-                <img src="https://img.shields.io/badge/Tableau-009EE2?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA60lEQVR4nO2aAQqDMAxF/9E8mkfzZn8MOpAyrW2TNo15EAai+T5qHVoBXXYATL9Ls4eIMZYV2dJJ/+pIIke2/bvfVJiqNAKl2jsyRCiFSIwILYhIzBGGSAUhAr2MW9hY1jLgRmTm9UuLc8RqBl4rwo5jVAkR6GUMaSZ922RtrxDJCJELir3ODz3np7x8+13znhI7L3YEaoqw9ng3I+JmjuSEyCoirGzUIsIHN5ZuZouIESLQy2hiRAhD5A/S/9CzMuBGxM2l5ebd7xUhAr2MJl4jsq2yhlhCYlXXBMuss7/my4ecELGGGxGM4gNlNsOBpcyJuwAAAABJRU5ErkJggg==&logoColor=white">
-                <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
-                <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-                <p><br>Dashboard demonstrativo da variação de temperatura pelo mundo ao longo dos anos. Para este projeto, foi utilizado uma API juntamente a biblioteca Requests do Python para complementar as informações dos países da planilha inicial.</p>
-                </div>
-            </div>
-            </div>
-
-
-            </div>
-
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="dashboard_games.png"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Dashboard Interativo - Games Sales with 100k+ units</p>
-                    <p class="subtitle is-6"><a href="https://app.powerbi.com/view?r=eyJrIjoiZThmMmY0OTYtYTc3My00YjNjLThiOTctMzBlN2I2NzU3ZDU5IiwidCI6ImVlZTRkZmE4LTE4NjYtNGE5Yi04NjU5LThjMzU2ZWFmYzZlMyJ9">Projeto disponível aqui</a></p>
-                </div>
-                </div>
-
-                <div class="content">
-                <img src="https://img.shields.io/badge/PowerBI-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white">
-                <p><br>
-                Dashboard para análises dos jogos de videogames com mais de 100 mil unidades vendidas. O painél tem interatividade entre os gráficos para análise de padrões específicos, como publisher por console, vendas de jogos individuais, etc. Projeto feito no PowerBI.</p>
-                </div>
-            </div>
-            </div>
-
-
-            </div>
-
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="analise_smartphones.png"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Análise de Dados - Como escolher seu modelo de celular ideal?</p>
-                    <p class="subtitle is-6"><a href="https://smartphones-2026-data.streamlit.app/">Projeto disponível aqui</a></p>
-                </div>
-                </div>
-
-                <div class="content">
-                <img src="https://camo.githubusercontent.com/324b4cfa68deb1b9c0008c02e910370ae1e1b7141ce0fe77972b6ea034e7abb7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3337373641423f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465">
-                <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
-                <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
-                <p><br>
-                Projeto de análise de dados feito do zero utilizando Streamlit em conjunto com Pandas. <br><br>
-                Analisa dados relacionados a modelos de smartphones oferecidos para vendas e compara tendências entre valores de produtos, sistemas operacionais e espcificações de modelos para definir qual a melhor opção de celular em custo quanto e funcionalidades.</p>
-                </div>
-            </div>
-            </div>
 
 
             </div>
+        </div>
+    </section>
 
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="https://github.com/Tomoharuu/Georeferenciamento-Mogi-SEMAS/blob/main/img/georef_exemplo.png?raw=true"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Portal de Georreferenciamento SEMAS - Mogi</p>
-                    <p class="subtitle is-6"><a href="https://github.com/Tomoharuu/Georeferenciamento-Mogi-SEMAS">Projeto disponível no GitHub</a></p>
-                </div>
-                </div>
-
-                <div class="content">
-                <img src="https://camo.githubusercontent.com/324b4cfa68deb1b9c0008c02e910370ae1e1b7141ce0fe77972b6ea034e7abb7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3337373641423f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465">
-                <img src="https://camo.githubusercontent.com/7b27fe6d2ddb06e7cb69a228035ed51400dc148dc67a68a76e02fd4768f6ade5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f466f6c69756d2d3737423832393f7374796c653d666f722d7468652d6261646765266c6f676f3d666f6c69756d266c6f676f436f6c6f723d7768697465">
-                <img src="https://camo.githubusercontent.com/b108dc2388739d4cea2bef5cf6909c24a38398e393601fe6be0d7f63327431ea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465">
-                <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS&logoColor=white">
-                <img src="https://camo.githubusercontent.com/edb9a8eb98589e981251013b1fad3eb8d6a27877cad731dcdffd2f81d4aed8c5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f426f6f745374726170352d3739353242333f7374796c653d666f722d7468652d6261646765266c6f676f3d626f6f747374726170266c6f676f436f6c6f723d7768697465">
-                <br>
-                <img src="https://img.shields.io/badge/Excel-34A853?style=for-the-badge&logo=googlesheets&logoColor=white">
-                <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
-                <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white">
+    <!--Projetos Principais-->
+    <section id="projetos_principais">
+        <div class="w-full bg-gray-950 xl:px-[10vh] 2xl:px-[20vh] 3xl:px-[35vh] pb-20">
+            <div class="container mx-auto p-5">
+                <h1 class="font-bold text-4xl pt-5 mt-5">Projetos Principais</h1>
+                <p class="pt-3 text-gray-400">▌ Projetos que melhor representam minha experiência com análise,
+                    visualização
+                    e desenvolvimento de soluções orientadas a dados.</p>
                 <br><br>
-                Site de Georreferenciamento da Secretaria Municipal de Assistência Social de Mogi das Cruzes.<br><br>
-                O site cruza informações de bases de dados do cadastro único com dados da prefeitura municipal, integrando bibliotecas de mapas com tratamento de dados e utilização de HTML, CSS, Bootstrap e trechos em JavaScript.
-                <br/>
+
+                <div class="flex flex-wrap gap-4 justify-center">
+
+                    <div class="card group bg-base-100 w-130 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10"
+                        onclick="georef_semas.showModal()">
+                        <div class="card-body">
+                            <h2 class="card-title">⭐ Portal de Georreferenciamento SEMAS - Mogi</h2>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Excel-34A853?style=for-the-badge&logo=googlesheets&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Folium-77B829?style=for-the-badge&logo=folium&logoColor=white">
+                            </div>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="img/thumbs/georef_semas_thumb.png" alt="Georeferenciamento-Mogi-SEMAS"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <dialog id="georef_semas" class="modal shadow-3xl">
+
+                        <div class="modal-box w-10/12 max-w-3xl bg-base-300 border-2 border-gray-100/10">
+                            <form method="dialog">
+                                <button
+                                    class="btn btn-sm btn-circle btn-ghost bg-gray-500/10 hover:bg-red-500/50 absolute right-2 top-2">✕</button>
+                            </form>
+                            <p class="text-xs font-semibold uppercase tracking-widest text-success mb-1">Projeto -
+                                Extração,
+                                Tratamento e Apresentação de Dados</p>
+                            <h3 class="text-2xl font-bold">Portal de Georreferenciamento SEMAS - Mogi</h3>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Excel-34A853?style=for-the-badge&logo=googlesheets&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Folium-77B829?style=for-the-badge&logo=folium&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS&logoColor=white">
+                            </div>
+                            <div class="divider mb-2"></div>
+
+                            <div class="flex flex-wrap gap-1 items-center pt-2">
+                                <p class="text-xs font-semibold uppercase tracking-widest">🔗 Links:</p>
+                                <a role="button" class="btn btn-sm btn-outline btn-warning ml-2 mr-1"
+                                    href="https://tomoharuu.github.io/Georeferenciamento-Mogi-SEMAS/" target="_blank">🚀
+                                    Website</a>
+                                <a role="button" class="btn btn-sm btn-outline"
+                                    href="https://github.com/Tomoharuu/Georeferenciamento-Mogi-SEMAS"
+                                    target="_blank">🛈︎
+                                    GitHub</a>
+                            </div>
+                            <div class="divider pt-0"></div>
+                            <p class="text-xs font-semibold uppercase tracking-widest mb-1">▶ Resumo</p>
+                            <p>Desenvolvimento de aplicação web para contornar limitações na funcionalidade de mapas do
+                                VISUAS, utilizando Python, Pandas, Folium, JavaScript, HTML/CSS e Bootstrap. Integração
+                                e tratamento de bases governamentais com milhares de registros e aproximadamente 600
+                                pontos de referência, utilizando GeoJSON para delimitação territorial e disponibilizando
+                                os dados em mapa interativo e responsivo.</p>
+                            <br>
+                            <p>A solução permanece em uso por funcionários da rede, facilitando o acesso e a
+                                visualização georreferenciada de informações sobre serviços socioassistenciais de Mogi
+                                das Cruzes.</p>
+                            <br>
+                            <p class="text-xs font-semibold uppercase tracking-widest my-4">▶ Imagens</p>
+
+                            <div class="flex flex-wrap gap-3 justify-center">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/georef_semas_slide_01.png" alt="georef_semas_slide_01">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/georef_semas_slide_02.png" alt="georef_semas_slide_02">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/georef_semas_slide_03.png" alt="georef_semas_slide_03">
+
+                            </div>
+
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <button class="btn btn-soft">Fechar</button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <form method="dialog" class="modal-backdrop">
+                            <button>close</button>
+                        </form>
+
+                    </dialog>
+
+                    <div class="card group bg-base-100 w-130 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10"
+                        onclick="smartphone_streamlit.showModal()">
+                        <div class="card-body">
+                            <h2 class="card-title">⭐ Como escolher seu modelo de celular ideal?</h2>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
+                            </div>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="img/slides/smartphone_slide_03.png" alt="smartphone_streamlit_thumb"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <dialog id="smartphone_streamlit" class="modal shadow-3xl">
+
+                        <div class="modal-box w-10/12 max-w-3xl bg-base-300 border-2 border-gray-100/10">
+                            <form method="dialog">
+                                <button
+                                    class="btn btn-sm btn-circle btn-ghost bg-gray-500/10 hover:bg-red-500/50 absolute right-2 top-2">✕</button>
+                            </form>
+                            <p class="text-xs font-semibold uppercase tracking-widest text-primary mb-1">
+                                Projeto · Análise de Dados</p>
+                            <h3 class="text-2xl font-bold">Como escolher seu modelo de celular ideal?</h3>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
+                            </div>
+                            <div class="divider mb-2"></div>
+
+                            <div class="flex flex-wrap gap-1 items-center pt-2">
+                                <p class="text-xs font-semibold uppercase tracking-widest">🔗 Links:</p>
+                                <a role="button" class="btn btn-sm btn-outline btn-warning ml-2 mr-1"
+                                    href="https://smartphones-2026-data.streamlit.app/" target="_blank">🚀 Website</a>
+                                <a role="button" class="btn btn-sm btn-outline"
+                                    href="https://github.com/Tomoharuu/streamlit-smartphones" target="_blank">🛈︎
+                                    GitHub</a>
+                            </div>
+                            <div class="divider pt-0"></div>
+                            <p class="text-xs font-semibold uppercase tracking-widest mb-1">▶ Resumo</p>
+                            <p>Análise exploratória de 998 modelos de smartphones utilizando Python, Pandas, Streamlit,
+                                Plotly e SQL (pandasql), abrangendo tratamento e padronização dos dados, distribuição de
+                                preços e marcas, categorias de mercado e comparações entre preço, benchmark, fabricante
+                                e sistema operacional.</p>
+                            <br>
+                            <p>A análise identificou padrões de custo-benefício e discrepâncias de preço entre
+                                fabricantes e categorias, além de diferenças de desempenho entre versões de Android e
+                                iOS, consolidando os resultados em uma aplicação interativa com visualizações e
+                                conclusões analíticas.</p>
+                            <br>
+                            <p class="text-xs font-semibold uppercase tracking-widest my-4">▶ Imagens</p>
+
+                            <div class="flex flex-wrap gap-3 justify-center">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/smartphone_slide_01.png" alt="smartphone_slide_01">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/smartphone_slide_02.png" alt="smartphone_slide_02">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/smartphone_slide_03.png" alt="smartphone_slide_03">
+
+                            </div>
+
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <button class="btn btn-soft">Fechar</button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <form method="dialog" class="modal-backdrop">
+                            <button>Fechar</button>
+                        </form>
+
+                    </dialog>
+
+                    <div class="card group bg-base-100 w-130 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10"
+                        onclick="dashboard_games.showModal()">
+                        <div class="card-body">
+                            <h2 class="card-title">⭐ Games Sales with 100k+ units</h2>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Dashboard | PowerBI-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white">
+                            </div>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="img/thumbs/dashboard_games_thumb.png" alt="Dashboard_Games_Thumb"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <dialog id="dashboard_games" class="modal shadow-3xl">
+
+                        <div class="modal-box w-10/12 max-w-3xl bg-base-300 border-2 border-gray-100/10">
+                            <form method="dialog">
+                                <button
+                                    class="btn btn-sm btn-circle btn-ghost bg-gray-500/10 hover:bg-red-500/50 absolute right-2 top-2">✕</button>
+                            </form>
+                            <p class="text-xs font-semibold uppercase tracking-widest text-warning mb-1">Projeto ·
+                                Dashboard
+                            </p>
+                            <h3 class="text-2xl font-bold"> Games Sales with 100k+ units</h3>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img
+                                    src="https://img.shields.io/badge/Dashboard | PowerBI-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white">
+                            </div>
+                            <div class="divider mb-2"></div>
+
+                            <div class="flex flex-wrap gap-1 items-center pt-2">
+                                <p class="text-xs font-semibold uppercase tracking-widest">🔗 Links:</p>
+                                <a role="button" class="btn btn-sm btn-outline btn-warning ml-2 mr-1"
+                                    href="https://app.powerbi.com/view?r=eyJrIjoiZThmMmY0OTYtYTc3My00YjNjLThiOTctMzBlN2I2NzU3ZDU5IiwidCI6ImVlZTRkZmE4LTE4NjYtNGE5Yi04NjU5LThjMzU2ZWFmYzZlMyJ9"
+                                    target="_blank">🚀
+                                    Website</a>
+                            </div>
+                            <div class="divider pt-0"></div>
+                            <p class="text-xs font-semibold uppercase tracking-widest mb-1">▶ Resumo</p>
+                            <p>Desenvolvimento individual de dashboard em PowerBI para análise de 11.487 jogos de
+                                videogame com mais de 100 mil unidades vendidas, incluindo tratamento e organização dos
+                                dados e construção de visualizações interativas.</p>
+                            <br>
+                            <p>O dashboard apresenta análise das vendas por plataforma, ano, região, gênero e publisher,
+                                com filtros e cruzamentos dinâmicos para identificar padrões de desempenho entre
+                                diferentes consoles, períodos e empresas, além de rankings dos jogos mais vendidos
+                                conforme os critérios selecionados.</p>
+                            <br>
+                            <p class="text-xs font-semibold uppercase tracking-widest my-4">▶ Imagens</p>
+
+                            <div class="flex flex-wrap gap-3 justify-center">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/game_dashboard_slide_01.png" alt="game_dashboard_slide_01">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/game_dashboard_slide_02.png" alt="game_dashboard_slide_02">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/game_dashboard_slide_03.png" alt="game_dashboard_slide_03">
+
+                            </div>
+
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <button class="btn btn-soft">Fechar</button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <form method="dialog" class="modal-backdrop">
+                            <button>close</button>
+                        </form>
+
+                    </dialog>
+
+                    <div class="card group bg-base-100 w-130 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10"
+                        onclick="dashboard_temperatura.showModal()">
+                        <div class="card-body">
+                            <h2 class="card-title">⭐ Variação da Temperatura Global</h2>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Dashboard | Tableau-009EE2?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA60lEQVR4nO2aAQqDMAxF/9E8mkfzZn8MOpAyrW2TNo15EAai+T5qHVoBXXYATL9Ls4eIMZYV2dJJ/+pIIke2/bvfVJiqNAKl2jsyRCiFSIwILYhIzBGGSAUhAr2MW9hY1jLgRmTm9UuLc8RqBl4rwo5jVAkR6GUMaSZ922RtrxDJCJELir3ODz3np7x8+13znhI7L3YEaoqw9ng3I+JmjuSEyCoirGzUIsIHN5ZuZouIESLQy2hiRAhD5A/S/9CzMuBGxM2l5ebd7xUhAr2MJl4jsq2yhlhCYlXXBMuss7/my4ecELGGGxGM4gNlNsOBpcyJuwAAAABJRU5ErkJggg==&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                            </div>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="img/thumbs/dashboard_temperatura_thumb.png"
+                                alt="Dashboard_Temperatura_Thumb"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <dialog id="dashboard_temperatura" class="modal shadow-3xl">
+
+                        <div class="modal-box w-10/12 max-w-3xl bg-base-300 border-2 border-gray-100/10">
+                            <form method="dialog">
+                                <button
+                                    class="btn btn-sm btn-circle btn-ghost bg-gray-500/10 hover:bg-red-500/50 absolute right-2 top-2">✕</button>
+                            </form>
+                            <p class="text-xs font-semibold uppercase tracking-widest text-warning mb-1">Projeto ·
+                                Dashboard
+                            </p>
+                            <h3 class="text-2xl font-bold">Variação da Temperatura Global</h3>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img
+                                    src="https://img.shields.io/badge/Dashboard | Tableau-009EE2?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA60lEQVR4nO2aAQqDMAxF/9E8mkfzZn8MOpAyrW2TNo15EAai+T5qHVoBXXYATL9Ls4eIMZYV2dJJ/+pIIke2/bvfVJiqNAKl2jsyRCiFSIwILYhIzBGGSAUhAr2MW9hY1jLgRmTm9UuLc8RqBl4rwo5jVAkR6GUMaSZ922RtrxDJCJELir3ODz3np7x8+13znhI7L3YEaoqw9ng3I+JmjuSEyCoirGzUIsIHN5ZuZouIESLQy2hiRAhD5A/S/9CzMuBGxM2l5ebd7xUhAr2MJl4jsq2yhlhCYlXXBMuss7/my4ecELGGGxGM4gNlNsOBpcyJuwAAAABJRU5ErkJggg==&logoColor=white">
+                            </div>
+                            <div class="divider mb-2"></div>
+
+                            <div class="flex flex-wrap gap-1 items-center pt-2">
+                                <p class="text-xs font-semibold uppercase tracking-widest">🔗 Links:</p>
+                                <a role="button" class="btn btn-sm btn-outline btn-info ml-2 mr-1"
+                                    href="https://public.tableau.com/views/GlobalTemperatureOverviewbyYear/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+                                    target="_blank">🚀
+                                    Website</a>
+                            </div>
+                            <div class="divider pt-0"></div>
+                            <p class="text-xs font-semibold uppercase tracking-widest mb-1">▶ Resumo</p>
+                            <p>Desenvolvimento individual de dashboard em Tableau para análise da variação da
+                                temperatura global ao longo dos anos, com tratamento e organização dos dados e
+                                construção de visualizações para exploração das tendências históricas.</p>
+                            <br>
+                            <p>Projeto desenvolvido como demonstração de conhecimentos em análise e visualização de
+                                dados, destacando a capacidade de transformar uma série histórica em uma apresentação
+                                visual clara e interativa.</p>
+                            <br>
+                            <p class="text-xs font-semibold uppercase tracking-widest my-4">▶ Imagens</p>
+
+                            <div class="flex flex-wrap gap-3 justify-center">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/temperatura_dashboard_slide_01.png"
+                                    alt="temperatura_dashboard_slide_01">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/temperatura_dashboard_slide_02.png"
+                                    alt="temperatura_dashboard_slide_02">
+
+                            </div>
+
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <button class="btn btn-soft">Fechar</button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <form method="dialog" class="modal-backdrop">
+                            <button>close</button>
+                        </form>
+
+                    </dialog>
+
                 </div>
-            </div>
-            </div>
 
             </div>
+        </div>
+    </section>
 
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="diagnostico_semas.png"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Diagnóstico de Pesquisa sobre as condições de trabalho e saúde do trabalhador do SUAS </p>
-                    <p class="subtitle is-6"><a href="#">Projeto disponível aqui (somente alguns dados)</a></p>
-                </div>
-                </div>
-
-                <div class="content">
-                <img src="https://img.shields.io/badge/Excel-34A853?style=for-the-badge&logo=googlesheets&logoColor=white">
-                <img src="https://img.shields.io/badge/Word-4285F4?style=for-the-badge&logo=googlesheets&logoColor=white">
-                <p><br>Análise de dados e data storytelling baseado em pesquisa feita pela Secretaria de Assistência Social de Mogi das Cruzes com os trabalhadores da rede, em parceria com o NUMEP/SUAS (Núcleo Municipal de Educação Permanente do Sistema Único de Assistência Social).</p>
-                </div>
-            </div>
-            </div>
-
-
-            </div>
-
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="evento_dia_deficiencia_banner.png"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Apresentação do Dia das Pessoas com Deficiência</p>
-                    <p class="subtitle is-6"><a href="https://docs.google.com/presentation/d/1ZpI7Q_kgpAHWF8-oM4zjMVjamEU7Odte/edit?usp=sharing&ouid=105244664160118173247&rtpof=true&sd=true">Projeto disponível aqui</a></p>
-                </div>
-                </div>
-
-                <div class="content">
-                <img src="https://img.shields.io/badge/Apresentação_de_Slides-EB1F1F?style=for-the-badge&logo=googleslides&logoColor=white">
+    <!--Outros Projetos-->
+    <section id="outros_projetos">
+        <div class="w-full bg-slate-950/75 xl:px-[10vh] 2xl:px-[20vh] 3xl:px-[35vh] pb-20">
+            <div class="container mx-auto p-5">
+                <h1 class="font-bold text-4xl pt-5 mt-5">Outros Projetos</h1>
+                <p class="pt-3 text-gray-400">▌ Projetos que destacam outras individualidades e potenciais capacidades
+                    de
+                    conhecimento técnico.</p>
                 <br><br>
-                <p>
-                Apresentação feita em evento realizado em parceria com a Prefeitura de Mogi das Cruzes utilizando métodos de storytelling e visualização de informações/dados.</p>Sendo um evento direcionado para pessoas com deficiência física, entre elas a visual, foi inserida audiodescrição dos slides, além da identidade visual da apresentação seguir o conceito de algo mais minimalista e com o uso de fontes grandes, 
-                <br/>
+
+                <div class="flex flex-wrap gap-4 justify-center">
+
+                    <div class="card group bg-base-100 w-70 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10"
+                        onclick="evento_dia_deficientes.showModal()">
+                        <div class="card-body">
+                            <h2 class="card-title">Apresentação do Dia das Pessoas com Deficiência</h2>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Apresentação_de_Slides-EB1F1F?style=for-the-badge&logo=googleslides&logoColor=white">
+                            </div>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="img/thumbs/evento_dia_deficiencia_thumb.png"
+                                alt="Dia_Deifiencia_Thumb"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <dialog id="evento_dia_deficientes" class="modal shadow-3xl">
+
+                        <div class="modal-box w-10/12 max-w-3xl bg-base-300 border-2 border-gray-100/10">
+                            <form method="dialog">
+                                <button
+                                    class="btn btn-sm btn-circle btn-ghost bg-gray-500/10 hover:bg-red-500/50 absolute right-2 top-2">✕</button>
+                            </form>
+                            <p class="text-xs font-semibold uppercase tracking-widest text-error mb-1">Projeto -
+                                Apresentação de Slides</p>
+                            <h3 class="text-2xl font-bold">Apresentação do Dia das Pessoas com Deficiência</h3>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img
+                                    src="https://img.shields.io/badge/Apresentação_de_Slides-EB1F1F?style=for-the-badge&logo=googleslides&logoColor=white">
+                            </div>
+                            <div class="divider mb-2"></div>
+
+                            <div class="flex flex-wrap gap-1 items-center pt-2">
+                                <p class="text-xs font-semibold uppercase tracking-widest">🔗 Links:</p>
+                                <a role="button" class="btn btn-sm btn-outline btn-error ml-2 mr-1"
+                                    href="https://docs.google.com/presentation/d/1ZpI7Q_kgpAHWF8-oM4zjMVjamEU7Odte/edit?usp=sharing&ouid=105244664160118173247&rtpof=true&sd=true"
+                                    target="_blank">🚀 Apresentação PowerPoint</a>
+                            </div>
+                            <div class="divider pt-0"></div>
+                            <p class="text-xs font-semibold uppercase tracking-widest mb-1">▶ Resumo</p>
+                            <p> Apresentação feita em evento realizado em parceria com a Prefeitura de Mogi das Cruzes
+                                utilizando métodos de storytelling e visualização de informações/dados. Sendo um evento
+                                direcionado para pessoas com deficiência física, entre elas a visual, foi inserida
+                                audiodescrição dos slides, além da identidade visual da apresentação seguir o conceito
+                                de
+                                algo mais minimalista e com o uso de fontes grandes, </p>
+                            <br>
+                            <p class="text-xs font-semibold uppercase tracking-widest my-4">▶ Imagens</p>
+
+                            <div class="flex flex-wrap gap-3 justify-center">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/evento_dia_deficiente_slide_01.png"
+                                    alt="evento_dia_deficiente_slide_01">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/evento_dia_deficiente_slide_02.png"
+                                    alt="evento_dia_deficiente_slide_02">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/evento_dia_deficiente_slide_03.png"
+                                    alt="evento_dia_deficiente_slide_03">
+
+                            </div>
+
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <button class="btn btn-soft">Fechar</button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <form method="dialog" class="modal-backdrop">
+                            <button>close</button>
+                        </form>
+
+                    </dialog>
+
+                    <div class="card group bg-base-100 w-70 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10"
+                        onclick="hissatsu.showModal()">
+                        <div class="card-body">
+                            <h2 class="card-title">Hissatsu! | Inazuma Eleven Database</h2>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS&logoColor=white">
+                            </div>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="img/thumbs/hissatsu_thumb.png" alt="Hissatsu_Thumb"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <dialog id="hissatsu" class="modal shadow-3xl">
+
+                        <div class="modal-box w-10/12 max-w-3xl bg-base-300 border-2 border-gray-100/10">
+                            <form method="dialog">
+                                <button
+                                    class="btn btn-sm btn-circle btn-ghost bg-gray-500/10 hover:bg-red-500/50 absolute right-2 top-2">✕</button>
+                            </form>
+                            <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-1">Projeto ·
+                                Desenvolvimento Web e Banco de Dados</p>
+                            <h3 class="text-2xl font-bold">Hissatsu! | Inazuma Eleven Database</h3>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img
+                                    src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS&logoColor=white">
+                            </div>
+                            <div class="divider mb-2"></div>
+
+                            <div class="flex flex-wrap gap-1 items-center pt-2">
+                                <p class="text-xs font-semibold uppercase tracking-widest">🔗 Links:</p>
+                                <a role="button" class="btn btn-sm btn-outline ml-2 mr-1 btn-disabled" href="#">🛈︎
+                                    GitHub</a>
+                            </div>
+                            <div class="divider pt-0"></div>
+                            <p class="text-xs font-semibold uppercase tracking-widest mb-1">▶ Resumo</p>
+                            <p>Banco de dados interativo contendo as técnicas especiais presentes em todos os jogos da
+                                série
+                                Inazuma Eleven com suas respectivas informações (nomes/traduções/dados do jogo),
+                                contendo
+                                filtros por jogo e tipo de técnica especial. </p>
+                            <br>
+                            <p class="text-xs font-semibold uppercase tracking-widest my-4">▶ Imagens</p>
+
+                            <div class="flex flex-wrap gap-3 justify-center">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/hissatsu_slide_01.png" alt="hissatsu_slide_01">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/hissatsu_slide_02.png" alt="hissatsu_slide_02">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/hissatsu_slide_03.png" alt="hissatsu_slide_03">
+
+                            </div>
+
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <button class="btn btn-soft">Fechar</button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <form method="dialog" class="modal-backdrop">
+                            <button>close</button>
+                        </form>
+
+                    </dialog>
+
+                    <div class="card group bg-base-100 w-70 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10"
+                        onclick="imovel.showModal()">
+                        <div class="card-body">
+                            <h2 class="card-title">Previsão de preço de imóveis</h2>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Vibecoding-25313C?style=for-the-badge&logo=ioBroker&logoColor=white">
+                            </div>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="img/thumbs/preco_imoveis_thumb.png" alt="Preco_Imoveis_Thumb"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <dialog id="imovel" class="modal shadow-3xl">
+
+                        <div class="modal-box w-10/12 max-w-3xl bg-base-300 border-2 border-gray-100/10">
+                            <form method="dialog">
+                                <button
+                                    class="btn btn-sm btn-circle btn-ghost bg-gray-500/10 hover:bg-red-500/50 absolute right-2 top-2">✕</button>
+                            </form>
+                            <p class="text-xs font-semibold uppercase tracking-widest text-primary mb-1">Projeto ·
+                                Machine Learning e Previsão de Dados</p>
+                            <h3 class="text-2xl font-bold">Previsão de preço de imóveis</h3>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Vibecoding-25313C?style=for-the-badge&logo=ioBroker&logoColor=white">
+                            </div>
+                            <div class="divider mb-2"></div>
+
+                            <div class="flex flex-wrap gap-1 items-center pt-2">
+                                <p class="text-xs font-semibold uppercase tracking-widest">🔗 Links:</p>
+                                <a role="button" class="btn btn-sm btn-outline ml-2 mr-1 btn-disabled" href="#">🛈︎
+                                    GitHub</a>
+                            </div>
+                            <div class="divider pt-0"></div>
+                            <p class="text-xs font-semibold uppercase tracking-widest mb-1">▶ Resumo</p>
+                            <p>Modelo de previsão de imóveis utilizando como base o conjunto de dados da biblioteca de
+                                Python chamada scikit-learn. No projeto, é comparado previsões de modelos lineares e não
+                                lineares para então aplicá-los na interface em Streamlit.</p>
+                            <br>
+                            <p class="text-xs font-semibold uppercase tracking-widest my-4">▶ Imagens</p>
+
+                            <div class="flex flex-wrap gap-3 justify-center">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/imovel_slide_01.png" alt="imovel_slide_01">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/imovel_slide_02.png" alt="imovel_slide_02">
+
+                            </div>
+
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <button class="btn btn-soft">Fechar</button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <form method="dialog" class="modal-backdrop">
+                            <button>close</button>
+                        </form>
+
+                    </dialog>
+
+                    <div class="card group bg-base-100 w-70 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10"
+                        onclick="mbtl_linux.showModal()">
+                        <div class="card-body">
+                            <h2 class="card-title">MBTL Training Tool (port para Linux)</h2>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=black">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Vibecoding-25313C?style=for-the-badge&logo=ioBroker&logoColor=white">
+                            </div>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="img/thumbs/mbtl_linux_thumb.png" alt="MBTL_Linux_Thumb"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <dialog id="mbtl_linux" class="modal shadow-3xl">
+
+                        <div class="modal-box w-10/12 max-w-3xl bg-base-300 border-2 border-gray-100/10">
+                            <form method="dialog">
+                                <button
+                                    class="btn btn-sm btn-circle btn-ghost bg-gray-500/10 hover:bg-red-500/50 absolute right-2 top-2">✕</button>
+                            </form>
+                            <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-1">Projeto ·
+                                Python e Desenvolvimento de Ferramentas</p>
+                            <h3 class="text-2xl font-bold">MBTL Training Tool (Port para Linux)</h3>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=black">
+                                <img
+                                    src="https://img.shields.io/badge/Vibecoding-25313C?style=for-the-badge&logo=ioBroker&logoColor=white">
+                            </div>
+                            <div class="divider mb-2"></div>
+
+                            <div class="flex flex-wrap gap-1 items-center pt-2">
+                                <p class="text-xs font-semibold uppercase tracking-widest">🔗 Links:</p>
+                                <a role="button" class="btn btn-sm btn-outline ml-2 mr-1 btn-disabled" href="#">🛈︎
+                                    GitHub</a>
+                            </div>
+                            <div class="divider pt-0"></div>
+                            <p class="text-xs font-semibold uppercase tracking-widest mb-1">▶ Resumo</p>
+                            <p>Programa que indica dados específicos em tempo real do jogo Melty Blood: Type Lumina,
+                                como
+                                posição dos personagens na tela, valores específicos de HP, etc. Port para Linux do
+                                código
+                                publicado no Github por kosunan.</p>
+                            <br>
+                            <p class="text-xs font-semibold uppercase tracking-widest my-4">▶ Imagens</p>
+
+                            <div class="flex flex-wrap gap-3 justify-center">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/mbtl_linux_slide_01.png" alt="smartphone_slide_01">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/mbtl_linux_slide_02.png" alt="smartphone_slide_02">
+
+                            </div>
+
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <button class="btn btn-soft">Fechar</button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <form method="dialog" class="modal-backdrop">
+                            <button>close</button>
+                        </form>
+
+                    </dialog>
+
+                    <div class="card group bg-base-100 w-70 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10"
+                        onclick="sakurasou.showModal()">
+                        <div class="card-body">
+                            <h2 class="card-title">Sakurasou Translate Tool</h2>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
+                            </div>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="https://eternalnyaboronofficial.weebly.com/uploads/4/9/7/3/49733779/background-images/76998911.png"
+                                alt="Sakurasour_Thumb"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <dialog id="sakurasou" class="modal shadow-3xl">
+
+                        <div class="modal-box w-10/12 max-w-3xl bg-base-300 border-2 border-gray-100/10">
+                            <form method="dialog">
+                                <button
+                                    class="btn btn-sm btn-circle btn-ghost bg-gray-500/10 hover:bg-red-500/50 absolute right-2 top-2">✕</button>
+                            </form>
+                            <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-1">Projeto ·
+                                Criação de Ferramenta para Tradução de Jogo</p>
+                            <h3 class="text-2xl font-bold">Sakurasou Translate Tool</h3>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
+                            </div>
+                            <div class="divider mb-2"></div>
+
+                            <div class="flex flex-wrap gap-1 items-center pt-2">
+                                <p class="text-xs font-semibold uppercase tracking-widest">🔗 Links:</p>
+                                <a role="button" class="btn btn-sm btn-outline btn-warning ml-2 mr-1"
+                                    href="https://dub.sh/eternalnyaboron" target="_blank">🚀 Website</a>
+                            </div>
+                            <div class="divider pt-0"></div>
+                            <p class="text-xs font-semibold uppercase tracking-widest mb-1">▶ Resumo</p>
+                            <p>Ferramenta de tradução do jogo Sakurasou no Pet na Kanojo, de PSP/PSVita. O site permite
+                                que
+                                você converta os arquivos do jogo em planilhas de excel e vice-versa.</p>
+                            <br>
+                            <p class="text-xs font-semibold uppercase tracking-widest my-4">▶ Imagens</p>
+
+                            <div class="flex flex-wrap gap-3 justify-center">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/sakurasou_slide_01.png" alt="sakurasou_slide_01">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/sakurasou_slide_02.png" alt="sakurasou_slide_02">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/sakurasou_slide_03.png" alt="sakurasou_slide_03">
+
+                            </div>
+
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <button class="btn btn-soft">Fechar</button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <form method="dialog" class="modal-backdrop">
+                            <button>close</button>
+                        </form>
+
+                    </dialog>
+
+                    <div class="card group bg-base-100 w-70 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10"
+                        onclick="mbaacc_bot.showModal()">
+                        <div class="card-body">
+                            <h2 class="card-title">MBAACC (Melty Blood) Frame Data Bot</h2>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/Web_Scraping-222222?style=for-the-badge&logo=pyg&logoColor=white">
+                            </div>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="img/thumbs/mbaacc_bot_thumb.png" alt="MBAACC_Bot_Thumb"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <dialog id="mbaacc_bot" class="modal shadow-3xl">
+
+                        <div class="modal-box w-10/12 max-w-3xl bg-base-300 border-2 border-gray-100/10">
+                            <form method="dialog">
+                                <button
+                                    class="btn btn-sm btn-circle btn-ghost bg-gray-500/10 hover:bg-red-500/50 absolute right-2 top-2">✕</button>
+                            </form>
+                            <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-1">Projeto ·
+                                Automação, Web Scraping e ETL</p>
+                            <h3 class="text-2xl font-bold">MBAACC (Melty Blood) Frame Data Bot</h3>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img
+                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/Web_Scraping-222222?style=for-the-badge&logo=pyg&logoColor=white">
+                            </div>
+                            <div class="divider mb-2"></div>
+
+                            <div class="flex flex-wrap gap-1 items-center pt-2">
+                                <p class="text-xs font-semibold uppercase tracking-widest">🔗 Links:</p>
+                                <a role="button" class="btn btn-sm btn-outline"
+                                    href="https://github.com/Tomoharuu/MBAACC-Frame-Data-Bot" target="_blank">🛈︎
+                                    GitHub</a>
+                            </div>
+                            <div class="divider pt-0"></div>
+                            <p class="text-xs font-semibold uppercase tracking-widest mb-1">▶ Resumo</p>
+                            <p>Bot criado com o objetivo de facilitar o acesso de informações técnicas referente ao jogo
+                                Melty Blood Actress Again: Current Code. Projeto feito em Python com discord.py e
+                                utilizando
+                                bibliotecas como Pandas, BeautifulSoup
+                                e requests. </p>
+                            <br>
+                            <p class="text-xs font-semibold uppercase tracking-widest my-4">▶ Imagens</p>
+
+                            <div class="flex flex-wrap gap-3 justify-center">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/mbaacc_bot_slide_01.png" alt="mbaacc_bot_slide_01">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/mbaacc_bot_slide_02.png" alt="mbaacc_bot_slide_02">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/mbaacc_bot_slide_03.png" alt="mbaacc_bot_slide_03">
+
+                            </div>
+
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <button class="btn btn-soft">Fechar</button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <form method="dialog" class="modal-backdrop">
+                            <button>close</button>
+                        </form>
+
+                    </dialog>
+
+                    <div class="card group bg-base-100 w-70 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10"
+                        onclick="mbtl_resources.showModal()">
+                        <div class="card-body">
+                            <h2 class="card-title">Guia de Recursos MBTL (Website)</h2>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS&logoColor=white">
+                                <img class="h-6"
+                                    src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
+                            </div>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="img/slides/mbtl_resources_slide_01.png" alt="Guia_Recursos_MBTL_Thumb"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <dialog id="mbtl_resources" class="modal shadow-3xl">
+
+                        <div class="modal-box w-10/12 max-w-3xl bg-base-300 border-2 border-gray-100/10">
+                            <form method="dialog">
+                                <button
+                                    class="btn btn-sm btn-circle btn-ghost bg-gray-500/10 hover:bg-red-500/50 absolute right-2 top-2">✕</button>
+                            </form>
+                            <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-1">Projeto ·
+                                Criação de Website</p>
+                            <h3 class="text-2xl font-bold">Guia de Recursos MBTL</h3>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <img
+                                    src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS&logoColor=white">
+                                <img
+                                    src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
+                            </div>
+                            <div class="divider mb-2"></div>
+
+                            <div class="flex flex-wrap gap-1 items-center pt-2">
+                                <p class="text-xs font-semibold uppercase tracking-widest">🔗 Links:</p>
+                                <a role="button" class="btn btn-sm btn-outline btn-warning ml-2 mr-1"
+                                    href="https://tomoharuu.github.io/mbtl-resources/" target="_blank">🚀
+                                    Website</a>
+                                <a role="button" class="btn btn-sm btn-outline"
+                                    href="https://github.com/Tomoharuu/mbtl-resources" target="_blank">🛈︎
+                                    GitHub</a>
+                            </div>
+                            <div class="divider pt-0"></div>
+                            <p class="text-xs font-semibold uppercase tracking-widest mb-1">▶ Resumo</p>
+                            <p>Compilado de guias, tutoriais e referências de jogadores do jogo de luta Melty Blood Type
+                                Lumina.</p>
+                            <br>
+                            <p class="text-xs font-semibold uppercase tracking-widest my-4">▶ Imagens</p>
+
+                            <div class="flex flex-wrap gap-3 justify-center">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/mbtl_resources_slide_01.png" alt="mbtl_resources_slide_01">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/mbtl_resources_slide_02.png" alt="mbtl_resources_slide_02">
+                                <img class="zoomable cursor-zoom-in rounded-lg h-30 border-2 border-gray-700 hover:border-blue-300/75 hover:scale-105"
+                                    src="img/slides/mbtl_resources_slide_03.png" alt="mbtl_resources_slide_03">
+
+                            </div>
+
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <button class="btn btn-soft">Fechar</button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <form method="dialog" class="modal-backdrop">
+                            <button>close</button>
+                        </form>
+
+                    </dialog>
+
                 </div>
+
+
+
             </div>
-            </div>
-
-
-            </div>
-
-
-          </div>
-          </div>
-
-
         </div>
+    </section>
+
+    <!--Certificados-->
+    <section id="certificados">
+        <div class="w-full bg-gray-950 xl:px-[20vh] 2xl:px-[35vh] pb-20">
+            <div class="container mx-auto p-5">
+                <h1 class="font-bold text-4xl pt-5 mt-5">Certificados</h1>
+                <div class="divider"></div>
+
+                <div class="flex flex-wrap gap-4 justify-center">
+
+                    <div
+                        class="card group bg-base-100 w-70 h-70 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10">
+                        <div class="card-body">
+                            <h2 class="card-title">Google Data Analysis Certificate</h2>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="img/thumbs/google_thumb.jpg" alt="google_thumb"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <div
+                        class="card group bg-base-100 w-70 h-70 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10">
+                        <div class="card-body">
+                            <h2 class="card-title">JLPT (Japanese Language Proficiency Test)</h2>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                            </div>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQROV9S6VfcCU9xI-ctSUVJCJqTlKTftxIBe4U7QbkSFw&s=10"
+                                alt="JLPT" class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                    <div
+                        class="card group bg-base-100 w-70 h-70 border border-gray-500/30 shadow-md cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-500/10">
+                        <div class="card-body">
+                            <h2 class="card-title">Certificados Kaggle em Data Science</h2>
+                        </div>
+                        <figure class="overflow-hidden">
+                            <img src="img/thumbs/cursos_kaggle_thumb.png" alt="cursos_kaggle_thumb"
+                                class="transition-transform duration-500 group-hover:scale-102" />
+                        </figure>
+                    </div>
+
+                </div>
+
+
+
+            </div>
         </div>
+    </section>
+
+    <footer class="footer footer-horizontal footer-center bg-black text-base-content rounded p-10">
+        <nav class="grid grid-flow-col gap-4">
+            <a class="link link-hover" href="#experiencia">Experiência e Formação</a>
+            <a class="link link-hover" href="#projetos_principais">Projetos</a>
+            <a class="link link-hover" href="#certificados">Certificados</a>
+        </nav>
+        <aside>
+            <p>Copyright © 2026 - Luiz Gustavo de Almeida Prado.</p>
+        </aside>
+    </footer>
+
+</body>
+
+
+<script>
+    const imageModal = document.getElementById('image_modal');
+    const zoomedImage = document.getElementById('zoomed_image');
+
+    document.querySelectorAll('.zoomable').forEach(image => {
+        image.addEventListener('click', () => {
+            zoomedImage.src = image.src;
+            zoomedImage.alt = image.alt;
+            imageModal.showModal();
+        });
+    });
+</script>
 
-        <div class="card">
-        <button class="accordion"><i class="fa fa-cog has-text-light" aria-hidden="true"></i> Projetos com IA (Inteligência Artificial)
-            <span style="float:right"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-        </button>
-        <div class="panel2">
-
-
-            <article class="message is-light mt-2 mb-0">
-            <div class="message-header">
-                <p><i class="fa fa-warning has-text-dark" aria-hidden="true"></i> Aviso</p>
-            </div>
-            <div class="message-body">
-                Estes projetos são feitos como forma de experimentação da capacidade de integração da inteligência artificial (IA) para projetos futuros. Todos os projetos dessa seção tem indicação clara de seus respectivos usos de IA durante os códigos (ex: videcoded, feito com auxílio de IA, IA usada somente para correção de erros, etc.) 
-            </div>
-            </article>
-
-
-
-          <div class="fixed-grid has-1-cols-mobile">
-          <div class="grid py-5">
-
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="preco_imoveis_ml.png"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Previsão de preço de imóveis</p>
-                    <p class="subtitle is-6"><a href=" ">Link ainda não disponível</a></p>
-                </div>
-                </div>
-
-                <div class="content">
-                <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-                <img src="https://img.shields.io/badge/ScikitLearn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-                <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
-                <img src="https://img.shields.io/badge/Vibecoding-25313C?style=for-the-badge&logo=ioBroker&logoColor=white">
-                <p><br>Modelo de previsão de imóveis utilizando como base o conjunto de dados da bilioteca de Python chamada scikit-learn. No projeto, é comparado previsões de modelos lineares e não lineares para então aplicá-los na interface em Streamlit.</p>
-                </div>
-            </div>
-            </div>
-
-
-            </div>
-
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="training_tool_linux.png"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">MBTL Training Tool (port para Linux)</p>
-                    <p class="subtitle is-6"><a href=" ">Link ainda não disponível</a></p>
-                </div>
-                </div>
-
-                <div class="content">
-                <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-                <img src="https://img.shields.io/badge/Vibecoding-25313C?style=for-the-badge&logo=ioBroker&logoColor=white">
-                <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=black">
-                <p><br>Programa que indica dados específicos em tempo real do jogo Melty Blood: Type Lumina, como posição dos personagens na tela, valores específicos de HP, etc. Port para Linux do código <a href="https://github.com/kosunan/MBTL_Training/releases">publicado no Github por kosunan</a>.</p>
-                </div>
-            </div>
-            </div>
-
-
-            </div>
-
-
-          </div>
-
-          </div>
-
-
-        </div>
-        </div>
-
-        <div class="card">
-        <button class="accordion"><i class="fa fa-cubes has-text-success" aria-hidden="true"></i> Projetos Pessoais
-            <span style="float:right"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-        </button>
-        <div class="panel2">
-        <div class="fixed-grid has-1-cols-mobile py-5">
-            <div class="grid">
-
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="hissatsu_database.png"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Hissatsu! | Inazuma Eleven Database</p>
-                    <p class="subtitle is-6"><a href="">Projeto ainda não disponível</a></p>
-                </div>
-                </div>
-
-                <div class="content">
-                <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
-                <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white">
-                <img src="https://camo.githubusercontent.com/b108dc2388739d4cea2bef5cf6909c24a38398e393601fe6be0d7f63327431ea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465">
-                <img src="https://camo.githubusercontent.com/418ea487ef2bc348e9b8e09ec99ec056ccd68d788c618dcdcfe40a9ea77927b4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4353532d3233393132303f267374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465">
-                <img src="https://camo.githubusercontent.com/320d6619b3dae57d2a19cb2e7ba32cd10d666d6ab6eeb56a2ee011e96f7b1ca7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f426f6f7473747261702d3536334437433f7374796c653d666f722d7468652d6261646765266c6f676f3d626f6f747374726170266c6f676f436f6c6f723d7768697465">
-                <br><br>
-                Banco de dados interativo contendo as técnicas especiais presentes em todos os jogos da série Inazuma Eleven com suas respectivas informações (nomes/traduções/dados do jogo), contendo filtros por jogo e tipo de técnica especial.
-                <br/>
-                </div>
-            </div>
-            </div>
-
-            </div>
-
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="https://eternalnyaboronofficial.weebly.com/uploads/4/9/7/3/49733779/background-images/76998911.png"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Sakurasou Translate Tool</p>
-                    <p class="subtitle is-6"><a href="https://dub.sh/eternalnyaboron">Projeto disponível aqui</a></p>
-                </div>
-                </div>
-
-                <div class="content">
-                <img src="https://camo.githubusercontent.com/324b4cfa68deb1b9c0008c02e910370ae1e1b7141ce0fe77972b6ea034e7abb7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3337373641423f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465">
-                <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
-                <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
-                <br><br>
-                Ferramenta de tradução do jogo Sakurasou no Pet na Kanojo, de PSP/PSVita. O site permite que você converta os arquivos do jogo em planilhas de excel e vice-versa.
-                <br/>
-                </div>
-            </div>
-            </div>
-
-            </div>
-
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="https://camo.githubusercontent.com/084c1a90d8b8c6d5b8e57c2f471c7fe679e2a6449017d19cd8c1e8ace7012aaa/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f477163464d6d6258674145364e48652e6a7067"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Guia de Recursos MBTL</p>
-                    <p class="subtitle is-6"><a href="https://github.com/Tomoharuu/guia-recursos-mbtl">Projeto disponível no GitHub</a></p>
-                </div>
-                </div>
-
-                <div class="content">
-                <img src="https://camo.githubusercontent.com/b108dc2388739d4cea2bef5cf6909c24a38398e393601fe6be0d7f63327431ea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465">
-                <img src="https://camo.githubusercontent.com/418ea487ef2bc348e9b8e09ec99ec056ccd68d788c618dcdcfe40a9ea77927b4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4353532d3233393132303f267374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465">
-                <img src="https://camo.githubusercontent.com/320d6619b3dae57d2a19cb2e7ba32cd10d666d6ab6eeb56a2ee011e96f7b1ca7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f426f6f7473747261702d3536334437433f7374796c653d666f722d7468652d6261646765266c6f676f3d626f6f747374726170266c6f676f436f6c6f723d7768697465">
-                <br><br>
-                Compilado de guias, tutoriais e referências de jogadores do jogo de luta Melty Blood Type Lumina.
-                <br/>
-                </div>
-            </div>
-            </div>
-
-            </div>
-
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="mbtl_bot.png"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">MBTL Frame Data Bot</p>
-                    <p class="subtitle is-6"><a href="#">Projeto ainda não disponível</a></p>
-                </div>
-                </div>
-
-                <div class="content">
-                <img src="https://camo.githubusercontent.com/324b4cfa68deb1b9c0008c02e910370ae1e1b7141ce0fe77972b6ea034e7abb7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3337373641423f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465">
-                <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
-                <img src="https://img.shields.io/badge/Web_Scraping-222222?style=for-the-badge&logo=pyg&logoColor=white">
-                <br><br>
-                Bot criado com o objetivo de facilitar o acesso de informações técnicas referente ao jogo Melty Blood: Type Lumina.<br>
-                Projeto feito em Python com discord.py e utilizando bibliotecas como Pandas, BeautifulSoap, e requests.
-                <br/>
-                </div>
-            </div>
-            </div>
-
-            </div>
-
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="mbaacc_bot.png"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">MBAACC Frame Data Bot</p>
-                    <p class="subtitle is-6"><a href="https://github.com/Tomoharuu/MBAACC-Frame-Data-Bot">Projeto disponível no GitHub</a></p>
-                </div>
-                </div>
-
-                <div class="content">
-                <img src="https://camo.githubusercontent.com/324b4cfa68deb1b9c0008c02e910370ae1e1b7141ce0fe77972b6ea034e7abb7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3337373641423f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465">
-                <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
-                <img src="https://img.shields.io/badge/Web_Scraping-222222?style=for-the-badge&logo=pyg&logoColor=white">
-                <br><br>
-                Bot criado com o objetivo de facilitar o acesso de informações técnicas referente ao jogo Melty Blood Actress Again: Current Code.<br>
-                Projeto feito em Python com discord.py e utilizando bibliotecas como Pandas, BeautifulSoap, e requests.
-                <br/>
-                </div>
-            </div>
-            </div>
-
-            </div>
-
-
-          </div>
-        </div>
-
-
-        </div>
-        </div>
-
-        <div class="card">
-        <button class="accordion"><i class="fa fa-file-text has-text-danger" aria-hidden="true"></i> Certificados
-            <span style="float:right"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-        </button>
-        <div class="panel2">
-
-
-        <div class="fixed-grid has-1-cols-mobile">
-          <div class="grid py-5">
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="https://kotoba.com.br/wp-content/uploads/2016/09/jlptlogo.jpg.webp"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">JLPT (Japanese Language Proficiency Test)</p>
-                    <p class="subtitle is-6 has-text-warning">Clique nos botões para abrir os certificados.</p>
-                </div>
-                </div>
-
-                <div class="content">
-                    <button class="button is-info js-modal-trigger mb-2" data-target="jlpt-n2">JLPT N2</button>
-                    <button class="button is-link js-modal-trigger mb-2" data-target="jlpt-n4">JLPT N4</button>
-                    <button class="button is-dark js-modal-trigger mb-2" data-target="jlpt-n5">JLPT N5</button>
-                <br><br>
-                Teste de proficiência em Japonês que inclui gramática, voculabulário e compreensão auditiva. Vai do nível N5 até o nível N1 de dificuldade.
-                <br/>
-                </div>
-            </div>
-            </div>
-
-            </div>
-
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-2by1">
-                <img
-                    src="https://assets.datamation.com/uploads/2024/04/dm_20240424-coursera-data-analytics-certifications-review-figure_1.jpg"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Google Data Analysis Certificate</p>
-                    <p class="subtitle is-6 has-text-warning">Clique nos botões para abrir os certificados.</p>
-                </div>
-                </div>
-
-                <div class="content">
-                    <button class="button is-dark js-modal-trigger mb-2" data-target="google-mod-1">Módulo 1</button>
-                    <button class="button is-dark js-modal-trigger mb-2" data-target="google-mod-2">Módulo 2</button>
-                    <button class="button is-dark js-modal-trigger mb-2" data-target="google-mod-3">Módulo 3</button>
-                    <button class="button is-dark js-modal-trigger mb-2" data-target="google-mod-4">Módulo 4</button>
-                    <button class="button is-dark js-modal-trigger mb-2" data-target="google-mod-5">Módulo 5</button>
-                <br><br>
-                Curso de análise de dados oferecido pela Google em parceria com a Coursera.
-                <br/>
-                </div>
-            </div>
-            </div>
-
-            </div>
-
-            <div class="cell">
-            
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-normal">
-                <img
-                    src="cursos_kaggle.png"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Certificados Kaggle</p>
-                    <p class="subtitle is-6 has-text-warning">Clique nos botões para abrir os certificados.</p>
-                </div>
-                </div>
-
-                <div class="content">
-                    <button class="button is-dark js-modal-trigger" data-target="kaggle-intro">Introdução a Programação</button>
-                <br><br>
-                Plataforma de referência para estudantes e profissionais da área de dados. Contém milhares de datasets diferentes para estudos e/ou treino.
-                <br/>
-                </div>
-            </div>
-            </div>
-
-            </div>
-
-            <div class="cell">
-                
-            <div class="card">
-            <div class="card-image">
-                <figure class="image is-16by9">
-                <img
-                    src="https://lms.ev.org.br/mpls/Web/Cds/CourseImage.ashx?t=i&c=754&ct=WEB"
-                    alt="Placeholder image"
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">Curso Lei Geral de Proteção de Dados (LGPD)</p>
-                    <p class="subtitle is-6 has-text-warning">Clique no botão para abrir o certificado.</p>
-                </div>
-                </div>
-
-                <div class="content">
-                    <button class="button is-dark js-modal-trigger" data-target="lgpd">Certificado</button>
-                <br><br>
-                Curso realizado pela Fundação Bradesco.
-                <br/>
-                </div>
-            </div>
-            </div>
-
-            </div>
-          </div>
-        </div>
-        
-        </div>
-        </div>
-
-
-
-
-
-
-
-    <br><br>
-    <div id="jlpt-n2" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-        <header class="modal-card-head">
-        <p class="modal-card-title">JLPT N2 (2022)</p>
-        <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-        <img src="https://i.ibb.co/PM0nRxG/Certificado-N2.jpg">
-        </section>
-        <footer class="modal-card-foot">
-        <div class="buttons">
-            <button class="button">Fechar</button>
-        </div>
-        </footer>
-    </div>
-    </div>
-
-
-
-    <div id="jlpt-n4" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-        <header class="modal-card-head">
-        <p class="modal-card-title">JLPT N4 (2020)</p>
-        <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-        <img src="https://i.ibb.co/hcNfF29/Certificado-N4.jpg">
-        </section>
-        <footer class="modal-card-foot">
-        <div class="buttons">
-            <button class="button">Fechar</button>
-        </div>
-        </footer>
-    </div>
-    </div>
-
-    <div id="jlpt-n5" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-        <header class="modal-card-head">
-        <p class="modal-card-title">JLPT N5 (2019)</p>
-        <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-        <img src="https://i.ibb.co/ZWtMRK9/Certificado-N5.jpg">
-        </section>
-        <footer class="modal-card-foot">
-        <div class="buttons">
-            <button class="button">Fechar</button>
-        </div>
-        </footer>
-    </div>
-    </div>
-
-
-    <div id="kaggle-intro" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card" style="min-width: 50%;">
-        <header class="modal-card-head">
-        <p class="modal-card-title">Kaggle | Intro to Programming</p>
-        <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-        <img src="kaggle_intro_certificate.png">
-        </section>
-        <footer class="modal-card-foot">
-        <div class="buttons">
-            <button class="button">Fechar</button>
-        </div>
-        </footer>
-    </div>
-    </div>
-
-
-    <div id="google-mod-1" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card" style="min-width: 50%;">
-        <header class="modal-card-head">
-        <p class="modal-card-title">Foundations: Data, Data, Everywhere</p>
-        <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-        <img src="google_modulo1.jpg">
-        </section>
-        <footer class="modal-card-foot">
-        <div class="buttons">
-            <button class="button">Fechar</button>
-        </div>
-        </footer>
-    </div>
-    </div>
-
-
-    <div id="google-mod-2" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card" style="min-width: 50%;">
-        <header class="modal-card-head">
-        <p class="modal-card-title">Ask Questions to Make Data-Driven Decisions</p>
-        <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-        <img src="google_modulo2.jpg">
-        </section>
-        <footer class="modal-card-foot">
-        <div class="buttons">
-            <button class="button">Fechar</button>
-        </div>
-        </footer>
-    </div>
-    </div>
-
-
-    <div id="google-mod-3" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card" style="min-width: 50%;">
-        <header class="modal-card-head">
-        <p class="modal-card-title">Prepare Data for Exploration</p>
-        <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-        <img src="google_modulo3.jpg">
-        </section>
-        <footer class="modal-card-foot">
-        <div class="buttons">
-            <button class="button">Fechar</button>
-        </div>
-        </footer>
-    </div>
-    </div>
-
-
-    <div id="google-mod-4" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card" style="min-width: 50%;">
-        <header class="modal-card-head">
-        <p class="modal-card-title">Process Data from Dirty to Clean</p>
-        <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-        <img src="google_modulo4.jpg">
-        </section>
-        <footer class="modal-card-foot">
-        <div class="buttons">
-            <button class="button">Fechar</button>
-        </div>
-        </footer>
-    </div>
-    </div>
-
-
-    <div id="google-mod-5" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card" style="min-width: 50%;">
-        <header class="modal-card-head">
-        <p class="modal-card-title">Analyze Data to Answer Questions</p>
-        <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-        <img src="google_modulo5.jpg">
-        </section>
-        <footer class="modal-card-foot">
-        <div class="buttons">
-            <button class="button">Fechar</button>
-        </div>
-        </footer>
-    </div>
-    </div>
-
-    <div id="lgpd" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card" style="min-width: 50%;">
-        <header class="modal-card-head">
-        <p class="modal-card-title">Analyze Data to Answer Questions</p>
-        <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-        <img src="bradesco_lgpd.png">
-        </section>
-        <footer class="modal-card-foot">
-        <div class="buttons">
-            <button class="button">Fechar</button>
-        </div>
-        </footer>
-    </div>
-    </div>
-
-
-    </div> <!-- Fechando container -->
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </section>
-
-
-
-  <script src="script.js"></script>
-
-
-  </body>
 </html>
